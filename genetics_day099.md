@@ -58,7 +58,7 @@
 
 2025-2026年FDA批准的基因治疗呈现爆发式增长：
 
-- **Casgevy**：首个CRISPR疗法，镰状细胞病患者100%无血管闭塞危象≥12个月
+- **Casgevy**（CRISPR Therapeutics）：首个CRISPR疗法，镰状细胞病患者100%无血管闭塞危象≥12个月
 - **Zevaskyn**（2025.4）：首个细胞基因治疗RDEB
 - **Genglycos**（2026.8）：糖原累积病Ia型基因治疗
 - **Intellia体内CRISPR**：首个体内Phase 3成功，HAE发作减少87%
@@ -72,12 +72,16 @@
 
 2026年3月，**ACC/AHA血脂指南首次正式将PRS列为心血管疾病风险增强因素**，标志着多基因风险评分从研究工具走向临床实践。
 
+- Mass General Brigham开发可预测8种心血管疾病的PRS工具
+
 ### 7. 长读长测序：T2T时代
 
 | 平台 | 读长 | 准确率 | 核心应用 |
 |------|------|--------|---------|
 | PacBio Revio | ~20 kb HiFi | QV56 (>99.99%) | 泛基因组、T2T组装 |
 | Oxford Nanopore | >100 kb UL | ~92% (R1041) | 宏基因组、表观遗传检测 |
+
+- 西湖大学杨剑团队构建**1116个二倍体基因组泛基因组**，发现传统参考基因组遗漏超4亿碱基对未知序列
 
 ---
 
@@ -93,7 +97,7 @@ David Liu（刘如谦）1969年出生于加州，父亲是来自台湾的航天�
 
 2019年，他更进一步，发明了**先导编辑**（Prime Editing），将Cas9切口酶与逆转录酶融合，配合pegRNA，可以实现任意碱基替换、小片段插入和删除——被称为"基因编辑的搜索替换功能"。
 
-2025-2026年，Liu团队在Nature上三连发，展示了**PERT**（提前终止密码子读通系统）、**PE-PRISM**（高通量染色质结构筛选）和**AI指导的逆转录酶重设计**三大突破。
+2025-2026年，Liu团队在Nature上三连发，展示了**PERT**（提前终止密码子读通系统）、**PE-PRISM**（高通量染色质结构筛选）和**AI指导的逆转录酶重设计**三大突破。PERT系统尤其令人振奋——约11%的人类致病等位基因由提前终止密码子引起，PERT有望成为通用治疗策略。
 
 > **启示**：Liu的故事告诉我们，跨学科视角是创新的源泉。当化学家重新审视生物学问题，往往能开辟全新的路径。
 
@@ -102,6 +106,8 @@ David Liu（刘如谦）1969年出生于加州，父亲是来自台湾的航天�
 Brian Hie是斯坦福大学和Arc Institute的计算生物学家。2024年，他领导开发了**Evo 1**，一个基于7.7万原核生物基因组训练的DNA语言模型。2025年，**Evo 2**问世，训练数据扩展至9万亿碱基对，涵盖原核生物、真核生物和噬菌体基因组。
 
 2026年8月，Hie团队在《Science》发表了一项颠覆性成果：他们用Evo 2生成了300个全新的噬菌体基因组序列，合成后其中16个成功在大肠杆菌中自我复制并裂解宿主——**这是AI首次从零设计出完整的功能性生物基因组**。
+
+Hie在接受采访时说："我们正在从'读取生物学'转向'编写生物学'。AI不仅能帮我们理解基因组，还能创造自然界从未存在过的基因组。"
 
 > **启示**：AI与合成生物学的深度融合，正在模糊"自然"与"设计"的边界，开启"基因组编写"的新时代。
 
@@ -114,13 +120,20 @@ Brian Hie是斯坦福大学和Arc Institute的计算生物学家。2024年，他
 | 1 | Base editing: precision chemistry on the genome | Nature | 2016 | 碱基编辑开山之作 |
 | 2 | Prime editing: a versatile genome editing tool | Nature | 2019 | 先导编辑原创论文 |
 | 3 | AlphaFold 3: Accurate structure prediction | Nature | 2024 | AI蛋白质结构预测新范式 |
-| 4 | AlphaGenome: regulatory variant effect prediction | Nature | 2025 | AI基因组学基础模型 |
+| 4 | AlphaGenome: Regulatory variant effect prediction | Nature | 2025 | AI基因组学基础模型 |
 | 5 | Evo 2: Genome modeling across the tree of life | Science | 2026 | AI设计功能性基因组 |
 | 6 | PERT: Prime editing-mediated readthrough of PTCs | Nature | 2025 | 通用无义突变治疗策略 |
 | 7 | CS-101: Cas12a editing for β-thalassemia | Nature | 2026 | 中国学者基因编辑临床突破 |
-| 8 | Cellist: cross-platform cell identification | Nature Genetics | 2026 | 空间转录组学方法突破 |
-| 9 | PRS in Cardiovascular Prevention Guidelines | ACC/AHA | 2026 | PRS首次进入临床指南 |
-| 10 | AI-guided redesign of reverse transcriptases | Nature Biotech | 2026 | AI优化基因编辑工具 |
+| 8 | Cellist: cell identification for spatial transcriptomics | Nature Genetics | 2026 | 空间转录组学方法突破 |
+| 9 | Polygenic Risk Scores in Cardiovascular Prevention | ACC/AHA | 2026 | PRS首次进入临床指南 |
+| 10 | AI-guided redesign of reverse transcriptases | Nature Biotechnology | 2026 | AI优化基因编辑工具 |
+
+**推荐阅读资源**：
+- 📺 YouTube: CRISPR Explained - Kurzgesagt
+- 📺 B站: 基因编辑的未来 - 毕导THU
+- 📺 YouTube: AlphaFold and the Protein Folding Revolution
+- 🌐 NCBI基因治疗临床试验数据库
+- 🌐 Wikipedia: Genome editing
 
 ---
 
@@ -139,7 +152,7 @@ Brian Hie是斯坦福大学和Arc Institute的计算生物学家。2024年，他
 
 **结果**：300个AI生成的序列中，16个（5.3%）成功产生可自我复制的噬菌体，能够裂解大肠杆菌。
 
-**意义**：这是人类首次用AI从零设计出完整的功能性生物基因组，标志着"基因组编写"时代的到来。
+**意义**：这是人类首次用AI从零设计出完整的功能性生物基因组，标志着"基因组编写"时代的到来。实验证明，AI不仅可以理解基因组，还可以创造自然界从未存在过的基因组。
 
 ### 实验二：PERT系统实现无义突变的通用读通（2025年11月）
 
@@ -149,9 +162,11 @@ Brian Hie是斯坦福大学和Arc Institute的计算生物学家。2024年，他
 **实验设计**：
 1. 通过先导编辑将内源tRNA基因永久转换为抑制型tRNA（sup-tRNA）
 2. 筛选18,000个pegRNAs覆盖全部418种人类tRNA
-3. 在Hurler综合征小鼠模型中验证疗效
+3. 在Hurler综合征（IDUA基因无义突变）小鼠模型中验证疗效
 
-**结果**：PERT系统在小鼠模型中实现广泛病理拯救，sup-tRNA能有效读通提前终止密码子。约11%的致病等位基因由提前终止密码子引起，PERT有望成为通用治疗策略。
+**结果**：PERT系统在小鼠模型中实现广泛病理拯救，sup-tRNA能有效读通提前终止密码子，恢复正常蛋白表达。约11%的致病等位基因由提前终止密码子引起，PERT有望成为通用治疗策略。
+
+**意义**：PERT是"一药治多病"理念的典范——一个PERT系统可以治疗多种由无义突变引起的遗传病，而无需为每个突变单独设计治疗方案。
 
 ---
 
@@ -159,31 +174,36 @@ Brian Hie是斯坦福大学和Arc Institute的计算生物学家。2024年，他
 
 ### 23andMe的兴衰：DTC基因组学的启示
 
-23andMe由Anne Wojcicki于2006年创立，凭借"99美元了解你的基因"的商业模式，一度成为硅谷宠儿。2021年公司估值高达60亿美元。
+23andMe由Anne Wojcicki于2006年创立，凭借"99美元了解你的基因"的商业模式，一度成为硅谷宠儿。2021年公司估值高达60亿美元，通过SPAC上市。
 
 然而，2023年10月，近700万客户数据被泄露。2025年3月，公司申请Chapter 11破产保护。
 
-23andMe的兴衰折射出DTC基因组学的根本困境：隐私悖论、价值瓶颈、监管模糊。基因组数据的商业化和隐私保护之间的平衡，是遗传学未来必须面对的核心问题之一。
+23andMe的兴衰折射出DTC（直接面向消费者）基因组学的根本困境：
+- **隐私悖论**：用户既想了解自己的基因，又担心数据泄露
+- **价值瓶颈**：大多数消费者测一次DNA后，很少需要重复购买
+- **监管模糊**：美国FDA对DTC基因检测的监管边界一直在变化
+
+这个故事提醒我们：**基因组数据的商业化和隐私保护之间的平衡，是遗传学未来必须面对的核心问题之一。**
 
 ### CRISPR女孩的三年后
 
-2018年，贺建奎宣布创造了世界首例基因编辑婴儿（CCR5-Δ32突变），引发全球伦理谴责。2026年，这两个孩子已近8岁。
+2018年，贺建奎宣布创造了世界首例基因编辑婴儿（CCR5-Δ32突变），引发全球伦理谴责并被判刑入狱。2026年，这两个孩子已近8岁。虽然少有公开的后续报道，但这一事件永久改变了基因编辑的伦理讨论框架。
 
-2025年，WHO发布了《人类基因组编辑治理框架》更新版，国际社会对体细胞编辑持开放态度，但对生殖系编辑仍保持严格禁令。
+2025年，WHO发布了《人类基因组编辑治理框架》更新版，国际社会对**体细胞编辑**（治疗疾病）持开放态度，但对**生殖系编辑**（可遗传）仍保持严格禁令。这一事件的影响持续至今：每一次基因编辑突破，研究者都会首先声明"这是体细胞编辑，不可遗传"。
 
 ---
 
 ## 🤔 思考题
 
-1. **技术vs伦理**：AI设计全新基因组的能力令人振奋，但也引发了"创造生命"的伦理争议。你认为"从头设计生命"的边界应该在哪里？
+1. **技术vs伦理**：AI设计全新基因组的能力（如Evo 2设计噬菌体）令人振奋，但也引发了"创造生命"的伦理争议。你认为"从头设计生命"的边界应该在哪里？
 
-2. **公平性**：基因治疗费用高达数百万美元。如何确保基因治疗的公平可及性？
+2. **公平性**：基因治疗（如Casgevy治疗镰状细胞病）的治疗费用高达数百万美元。如何确保基因治疗的公平可及性，不让"基因鸿沟"加剧社会不平等？
 
-3. **隐私**：当PRS进入临床指南，保险公司是否有权要求投保人提供PRS信息？
+3. **隐私**：当PRS（多基因风险评分）进入临床指南，保险公司是否有权要求投保人提供PRS信息？这可能导致"基因歧视"吗？
 
-4. **自然vs设计**：AI设计的基因组与自然进化的基因组有何本质区别？
+4. **自然vs设计**：AI设计的基因组与自然进化的基因组有何本质区别？如果AI设计的生物体释放到环境中，可能带来什么风险？
 
-5. **未来预测**：2035年的遗传学教科书可能新增哪些今天还不存在的章节？
+5. **未来预测**：2035年的遗传学教科书可能新增哪些今天还不存在的章节？请大胆预测。
 
 ---
 
@@ -191,8 +211,8 @@ Brian Hie是斯坦福大学和Arc Institute的计算生物学家。2024年，他
 
 | 术语 | 英文 | 定义 |
 |------|------|------|
-| 碱基编辑 | Base Editing | 通过化学修饰直接将一种碱基转换为另一种碱基的基因编辑技术 |
-| 先导编辑 | Prime Editing | 将Cas9切口酶与逆转录酶融合，配合pegRNA实现任意碱基替换 |
+| 碱基编辑 | Base Editing | 通过化学修饰直接将一种碱基转换为另一种碱基的基因编辑技术，无需双链断裂 |
+| 先导编辑 | Prime Editing | 将Cas9切口酶与逆转录酶融合，配合pegRNA实现任意碱基替换、插入和删除 |
 | 表观编辑 | Epigenetic Editing | 不改变DNA序列，通过修饰DNA甲基化或组蛋白来调控基因表达 |
 | 空间转录组学 | Spatial Transcriptomics | 在组织原位检测基因表达，保留空间位置信息的技术 |
 | 多基因风险评分 | Polygenic Risk Score (PRS) | 综合多个基因位点效应评估个体疾病遗传风险的统计方法 |
@@ -216,6 +236,7 @@ Brian Hie是斯坦福大学和Arc Institute的计算生物学家。2024年，他
 - 🚀 遗传学终身学习路线图
 
 > *"The best way to predict the future is to create it." — Peter Drucker*
+> *预测未来最好的方式就是创造未来。*
 
 ---
 
@@ -224,11 +245,31 @@ Brian Hie是斯坦福大学和Arc Institute的计算生物学家。2024年，他
 | 资源 | 类型 | 链接 |
 |------|------|------|
 | 基因编辑临床试验 | NCBI | ClinicalTrials.gov |
-| 人类泛基因组项目 | HPRC | GitHub HPRC |
+| 人类泛基因组项目 | HPRC | GitHub |
 | AlphaFold数据库 | EMBL-EBI | AlphaFold DB |
 | 基因组编辑科普 | Wikipedia | Genome editing |
 | 遗传学前沿 | Nature Genetics | Nature Genetics |
+| 长读长测序技术 | PacBio | PacBio Blog |
+| 纳米孔测序 | Oxford Nanopore | Nanopore Community |
+| 基因治疗数据库 | ASGCT | ASGCT |
+| AI蛋白质结构 | YouTube | AlphaFold Explained |
+| 基因编辑中文科普 | B站 | CRISPR原理 |
 
 ---
 
 *本文由遗传学100天学习计划自动生成 — Day 99/100 · 2026年8月21日*
+
+---
+
+## 📎 学习资源链接（自动插入）
+
+> 生成日期：2026-08-21 | Day 99
+
+| 资源 | 链接 |
+|------|------|
+| 🎓 课程主页 | https://github.com/lijianguoa/genetics-learning-100-days |
+| 📚 NCBI Bookshelf - Genetics | https://www.ncbi.nlm.nih.gov/books/NBK22178/ |
+| 🧬 OMIM数据库 | https://www.omim.org/ |
+| 🔬 CRISPR教程 | https://www.youtube.com/results?search_query=CRISPR+tutorial |
+| 📊 gnomAD数据库 | https://gnomad.broadinstitute.org/ |
+| 🎥 遗传学视频合集 | https://search.bilibili.com/all?keyword=遗传学 |
